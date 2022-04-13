@@ -19,7 +19,7 @@ const { animals } = require('./data/animals.json')
 
 
 app.get('/api/animals.json', (req, res) => {
-    res.send('hello');
+    res.json('animals.json');
 });
 
 app.listen(3001, () => {
